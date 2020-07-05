@@ -1,12 +1,13 @@
 function  smaller(){
     usersTwoNumbers= prompt("Enter 2 numbers");
     twoNumberArray= usersTwoNumbers.split(" ")
-    twoNumbers= Number(twoNumberArray);
+    firstNumber= Number(twoNumberArray[0])
+    secondNumber=Number(twoNumberArray[1])
     
-    if (twoNumberArray[0] > twoNumberArray[1]){
-        document.write(twoNumberArray[1])
+    if (firstNumber > secondNumber){
+        document.write(secondNumber)
     }else{ 
-        document.write(twoNumberArray[0]);
+        document.write(firstNumber);
     }
     }
     
